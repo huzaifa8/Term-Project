@@ -1,0 +1,57 @@
+.form-control label,
+.form-control input,
+.form-control textarea{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 1.2rem;
+    font: inherit;
+}
+
+.form-control label {
+    font-weight: bold;
+}
+.form-control textarea,
+.form-control input{
+  
+    background: #011627;
+    border: 2px solid #75389e85;
+    box-shadow: 2px 2px 5px 0 #355070;
+    color: white;
+    padding: 5px;
+}
+
+.form-control textarea {
+    resize: none; 
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+form {
+    height: 500px;
+    width: 40rem;
+    margin: 80px auto;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+    background: #011627;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+}
+
+.btn:hover {
+    background: #7F8B92;
+}

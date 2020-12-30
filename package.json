@@ -1,0 +1,19 @@
+{
+  "name": "pet_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Sarmad",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "joi": "^17.3.0",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.11.9"
+  }
+}
